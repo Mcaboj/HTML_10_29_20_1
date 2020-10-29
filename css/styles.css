@@ -1,0 +1,32 @@
+/* Descendant and Child Combinators */
+/* * {
+  color: red;
+}
+#heading {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: blue;
+}
+.heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: green;
+}
+p {
+  letter-spacing: 20px;
+} */
+.header h1 {
+  color: green;
+}
+.header > h1 {
+  color: purple;
+}
+ul {
+  display: block;
+}
+div h1 {
+  color: red;
+}
+div > h1 {
+  color: blue;
+}
